@@ -79,7 +79,6 @@ router.post("/register", async (req, res) => {
     zip: req.body.zip,
     city: req.body.city,
     country: req.body.country,
-    X,
   });
   user = await user.save();
 
